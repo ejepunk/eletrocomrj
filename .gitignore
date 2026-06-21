@@ -1,0 +1,17 @@
+# Local Codex/workspace metadata
+.agents/
+.codex/
+
+# Hosting/runtime data exported from the server
+logs/
+stats/
+private/
+*.log
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
+~$*

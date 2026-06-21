@@ -1,0 +1,908 @@
+/*
+Template Name: Eletrocom
+Custom professional overrides
+*/
+
+:root {
+  --brand-navy: #10233f;
+  --brand-blue: #195ca8;
+  --brand-orange: #f58220;
+  --brand-ink: #172033;
+  --brand-muted: #677386;
+  --brand-soft: #f4f7fb;
+  --brand-line: #dce4ef;
+  --brand-green: #25d366;
+  --shadow-soft: 0 18px 45px rgba(16, 35, 63, 0.12);
+  --shadow-card: 0 10px 28px rgba(16, 35, 63, 0.1);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fff;
+  color: var(--brand-ink);
+  font-family: "Segoe UI", Arial, sans-serif;
+  line-height: 1.65;
+}
+
+a {
+  transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container,
+.containers {
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.Eletrocom-header-top {
+  background: var(--brand-navy);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.Eletrocom-header-top .top-address p {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 24px;
+  margin: 0;
+  padding: 9px 0;
+}
+
+.Eletrocom-header-top .top-address span,
+.Eletrocom-header-top .top-address a {
+  color: rgba(255, 255, 255, 0.92);
+  font-size: 14px;
+  line-height: 1.3;
+}
+
+.Eletrocom-header-top .top-address a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.Eletrocom-header-top i {
+  color: var(--brand-orange);
+  margin-right: 7px;
+}
+
+.Eletrocom_nav_area {
+  background: rgba(255, 255, 255, 0.98);
+  box-shadow: 0 10px 30px rgba(16, 35, 63, 0.08);
+}
+
+.logo img,
+.mobile_menu_logo img {
+  max-height: 62px;
+  width: auto;
+}
+
+.Eletrocom_menu > ul {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+}
+
+.Eletrocom_menu ul li a {
+  color: var(--brand-navy);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.Eletrocom_menu ul li a:hover {
+  color: var(--brand-orange);
+  text-decoration: none;
+}
+
+.Eletrocom_menu ul.sub-menu ul.sub-menu {
+  border: 1px solid var(--brand-line);
+  border-radius: 8px;
+  box-shadow: var(--shadow-card);
+  overflow: hidden;
+}
+
+.mobile_logo_area {
+  background: #fff;
+  box-shadow: 0 8px 24px rgba(16, 35, 63, 0.08);
+  padding: 12px 0;
+}
+
+.mobile-menu {
+  background: var(--brand-navy);
+}
+
+.mobile-menu .Eletrocom_menu ul li a {
+  color: #fff;
+}
+
+.eletro-hero {
+  background:
+    linear-gradient(90deg, rgba(16, 35, 63, 0.92), rgba(16, 35, 63, 0.68), rgba(16, 35, 63, 0.2)),
+    url("assets/images/Eletric_013.jpg") center right / cover no-repeat;
+  color: #fff;
+  min-height: 590px;
+  overflow: hidden;
+  position: relative;
+}
+
+.eletro-hero .container {
+  display: flex;
+  min-height: 590px;
+  align-items: center;
+}
+
+.eletro-hero__content {
+  max-width: 680px;
+  padding: 72px 0 58px;
+}
+
+.eletro-eyebrow {
+  color: #ffd8ad;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 800;
+  margin-bottom: 18px;
+  text-transform: uppercase;
+}
+
+.eletro-hero h1 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.eletro-hero p {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 19px;
+  line-height: 1.7;
+  margin-bottom: 28px;
+}
+
+.eletro-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 34px;
+}
+
+.eletro-btn {
+  align-items: center;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  display: inline-flex;
+  font-size: 15px;
+  font-weight: 800;
+  gap: 9px;
+  justify-content: center;
+  min-height: 48px;
+  padding: 12px 20px;
+  text-decoration: none;
+}
+
+.eletro-btn:hover {
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+.eletro-btn--primary {
+  background: var(--brand-orange);
+  color: #fff;
+}
+
+.eletro-btn--primary:hover {
+  background: #ff9238;
+  color: #fff;
+}
+
+.eletro-btn--ghost {
+  border-color: rgba(255, 255, 255, 0.55);
+  color: #fff;
+}
+
+.eletro-btn--ghost:hover {
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+}
+
+.eletro-hero__stats {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(3, minmax(130px, 1fr));
+  max-width: 610px;
+}
+
+.eletro-stat {
+  border-left: 3px solid var(--brand-orange);
+  min-height: 76px;
+  padding: 7px 14px;
+}
+
+.eletro-stat strong {
+  color: #fff;
+  display: block;
+  font-size: 25px;
+  line-height: 1.1;
+}
+
+.eletro-stat span {
+  color: rgba(255, 255, 255, 0.78);
+  display: block;
+  font-size: 13px;
+  line-height: 1.35;
+  margin-top: 7px;
+}
+
+.Eletrocom_about_area,
+.Eletrocom_team2_area,
+.Eletrocom_project_area,
+.contact-section {
+  background: #fff;
+  padding: 78px 0;
+}
+
+.Eletrocom_project_area:nth-of-type(even),
+.Eletrocom_team2_area:nth-of-type(even) {
+  background: var(--brand-soft);
+}
+
+.witr_section_title {
+  margin-bottom: 36px;
+}
+
+.witr_section_title_inner h2 {
+  color: var(--brand-orange);
+  font-size: 15px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.witr_section_title_inner h3,
+.witr_section_title_inner h5 {
+  color: var(--brand-navy);
+  font-weight: 800;
+}
+
+.witr_section_title_inner h3 {
+  font-size: 34px;
+  line-height: 1.2;
+}
+
+.witr_section_title_inner h5 {
+  font-size: 22px;
+}
+
+.witr_section_title_inner p {
+  color: var(--brand-muted);
+  font-size: 17px;
+  line-height: 1.75;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 920px;
+}
+
+.witr_single_pslide,
+.em-team-one {
+  background: #fff;
+  border: 1px solid var(--brand-line);
+  border-radius: 8px;
+  box-shadow: var(--shadow-card);
+  height: 100%;
+  overflow: hidden;
+}
+
+.witr_single_pslide:hover,
+.em-team-one:hover {
+  transform: translateY(-3px);
+}
+
+.witr_pslide_image,
+.em-team-content-image {
+  background: var(--brand-soft);
+  overflow: hidden;
+}
+
+.witr_pslide_image img,
+.em-team-content-image img {
+  aspect-ratio: 4 / 3;
+  height: auto;
+  min-height: 230px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.witr_content_pslide_text,
+.em-team-content-waraper {
+  background: #fff;
+  padding: 20px;
+}
+
+.witr_content_pslide h3,
+.em-content-title h5,
+.witr_number_pslide h4 {
+  color: var(--brand-navy);
+  font-weight: 800;
+  line-height: 1.3;
+}
+
+.witr_content_pslide h3 {
+  font-size: 19px;
+}
+
+.em-content-title h5 {
+  font-size: 18px;
+}
+
+.witr_content_pslide p,
+.em-content-subtitle p {
+  color: var(--brand-muted);
+  font-size: 15px;
+}
+
+.witr_pslide3 .witr_single_pslide {
+  border-top: 4px solid var(--brand-orange);
+}
+
+.home-section {
+  background: #fff;
+  padding: 78px 0;
+}
+
+.home-section:nth-of-type(odd) {
+  background: var(--brand-soft);
+}
+
+.section-heading {
+  margin: 0 auto 36px;
+  max-width: 880px;
+  text-align: center;
+}
+
+.section-heading--left {
+  margin: 0;
+  max-width: 560px;
+  text-align: left;
+}
+
+.section-heading .eletro-eyebrow {
+  color: var(--brand-orange);
+  margin-bottom: 10px;
+}
+
+.section-heading h2 {
+  color: var(--brand-navy);
+  font-size: 34px;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 14px;
+}
+
+.section-heading p {
+  color: var(--brand-muted);
+  font-size: 17px;
+  line-height: 1.75;
+}
+
+.services-grid {
+  display: grid;
+  gap: 22px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.service-card {
+  background: #fff;
+  border: 1px solid var(--brand-line);
+  border-radius: 8px;
+  box-shadow: var(--shadow-card);
+  color: var(--brand-ink);
+  display: block;
+  min-height: 250px;
+  padding: 28px;
+  text-decoration: none;
+}
+
+.service-card:hover {
+  border-color: rgba(245, 130, 32, 0.55);
+  box-shadow: var(--shadow-soft);
+  color: var(--brand-ink);
+  text-decoration: none;
+  transform: translateY(-4px);
+}
+
+.service-card i,
+.why-item i {
+  align-items: center;
+  background: rgba(245, 130, 32, 0.12);
+  border-radius: 8px;
+  color: var(--brand-orange);
+  display: inline-flex;
+  font-size: 22px;
+  height: 52px;
+  justify-content: center;
+  margin-bottom: 18px;
+  width: 52px;
+}
+
+.service-card h3 {
+  color: var(--brand-navy);
+  font-size: 21px;
+  font-weight: 800;
+  line-height: 1.25;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  color: var(--brand-muted);
+  font-size: 15px;
+  line-height: 1.65;
+  margin: 0;
+}
+
+.why-section {
+  background:
+    linear-gradient(90deg, rgba(16, 35, 63, 0.96), rgba(16, 35, 63, 0.88)),
+    url("assets/images/electric_01.jpg") center / cover no-repeat;
+}
+
+.why-grid {
+  align-items: center;
+  display: grid;
+  gap: 44px;
+  grid-template-columns: minmax(280px, 0.9fr) minmax(320px, 1.1fr);
+}
+
+.why-section .section-heading h2,
+.why-section .section-heading p {
+  color: #fff;
+}
+
+.why-section .section-heading p {
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.why-list {
+  display: grid;
+  gap: 14px;
+}
+
+.why-item {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 8px;
+  color: #fff;
+  display: grid;
+  font-size: 17px;
+  font-weight: 800;
+  gap: 14px;
+  grid-template-columns: 52px 1fr;
+  padding: 16px;
+}
+
+.why-item i {
+  background: rgba(255, 255, 255, 0.12);
+  color: #ffd8ad;
+  margin-bottom: 0;
+}
+
+.portfolio-grid {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.portfolio-card {
+  background: #fff;
+  border: 1px solid var(--brand-line);
+  border-radius: 8px;
+  box-shadow: var(--shadow-card);
+  overflow: hidden;
+}
+
+.portfolio-card img {
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  width: 100%;
+}
+
+.portfolio-card div {
+  padding: 22px;
+}
+
+.portfolio-card h3 {
+  color: var(--brand-navy);
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.portfolio-card p {
+  color: var(--brand-muted);
+  margin: 0;
+}
+
+.testimonials-section {
+  background: var(--brand-soft);
+}
+
+.testimonials-grid {
+  display: grid;
+  gap: 22px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.testimonial-card {
+  background: #fff;
+  border: 1px solid var(--brand-line);
+  border-radius: 8px;
+  box-shadow: var(--shadow-card);
+  padding: 28px;
+  position: relative;
+}
+
+.testimonial-card:before {
+  color: rgba(245, 130, 32, 0.2);
+  content: "“";
+  font-family: Georgia, serif;
+  font-size: 84px;
+  left: 18px;
+  line-height: 1;
+  position: absolute;
+  top: 8px;
+}
+
+.testimonial-card p {
+  color: var(--brand-ink);
+  font-size: 16px;
+  line-height: 1.7;
+  margin: 0 0 18px;
+  position: relative;
+}
+
+.testimonial-card strong {
+  color: var(--brand-navy);
+  display: block;
+  font-weight: 800;
+}
+
+.testimonial-card span {
+  color: var(--brand-muted);
+  display: block;
+  font-size: 14px;
+}
+
+.contact-section {
+  background: var(--brand-soft);
+}
+
+.contact-grid {
+  display: grid;
+  gap: 28px;
+  grid-template-columns: minmax(280px, 0.9fr) minmax(320px, 1.1fr);
+}
+
+.contact-panel,
+.contact-form-panel {
+  background: #fff;
+  border: 1px solid var(--brand-line);
+  border-radius: 8px;
+  box-shadow: var(--shadow-soft);
+  padding: 30px;
+}
+
+.contact-panel h1,
+.contact-form-panel h2 {
+  color: var(--brand-navy);
+  font-size: 31px;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+
+.contact-panel p {
+  color: var(--brand-muted);
+  font-size: 16px;
+}
+
+.contact-panel .eletro-eyebrow {
+  color: var(--brand-orange);
+}
+
+.contact-list {
+  display: grid;
+  gap: 15px;
+  margin: 26px 0;
+}
+
+.contact-item {
+  align-items: flex-start;
+  border: 1px solid var(--brand-line);
+  border-radius: 8px;
+  display: grid;
+  gap: 12px;
+  grid-template-columns: 42px 1fr;
+  padding: 16px;
+}
+
+.contact-item i {
+  align-items: center;
+  background: rgba(245, 130, 32, 0.12);
+  border-radius: 6px;
+  color: var(--brand-orange);
+  display: inline-flex;
+  height: 42px;
+  justify-content: center;
+  width: 42px;
+}
+
+.contact-item strong {
+  color: var(--brand-navy);
+  display: block;
+}
+
+.contact-item a,
+.contact-item span {
+  color: var(--brand-muted);
+}
+
+.contact-form label {
+  color: var(--brand-navy);
+  font-weight: 700;
+}
+
+.contact-form .form-control {
+  border: 1px solid var(--brand-line);
+  border-radius: 6px;
+  box-shadow: none;
+  min-height: 48px;
+}
+
+.contact-form textarea.form-control {
+  min-height: 140px;
+}
+
+.contact-form .form-control:focus {
+  border-color: var(--brand-blue);
+  box-shadow: 0 0 0 3px rgba(25, 92, 168, 0.12);
+}
+
+.contact-form .btn-submit {
+  background: var(--brand-orange);
+  border: 0;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 800;
+  min-height: 50px;
+  padding: 12px 22px;
+}
+
+.contact-form .btn-submit:hover {
+  background: #ff9238;
+}
+
+p.form-messege.success {
+  color: #1c7c44;
+  font-weight: 700;
+}
+
+p.form-messege.error {
+  color: #b42318;
+  font-weight: 700;
+}
+
+.witrfm_area .footer-middle {
+  background: var(--brand-navy);
+  padding: 58px 0 42px;
+}
+
+.witrfm_area .footer-bottom {
+  background: #0b172b;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.footer-middle .widget-title,
+.footer-middle p,
+.footer-middle span,
+.footer-middle a,
+.copy-right-text p {
+  color: rgba(255, 255, 255, 0.86);
+}
+
+.footer-middle .widget-title {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.footer-middle a:hover {
+  color: #fff;
+}
+
+.footer_s_inner {
+  align-items: flex-start;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 28px 1fr;
+}
+
+.footer-sociala-icon i {
+  color: var(--brand-orange);
+}
+
+.witr_table {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.witr_sub_table {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 12px;
+}
+
+.witr_sub_table:last-child {
+  border-bottom: 0;
+}
+
+.floating-whatsapp {
+  align-items: center;
+  background: var(--brand-green);
+  border-radius: 8px;
+  bottom: 22px;
+  box-shadow: 0 12px 30px rgba(37, 211, 102, 0.34);
+  color: #fff;
+  display: inline-flex;
+  font-weight: 800;
+  gap: 8px;
+  min-height: 48px;
+  padding: 12px 16px;
+  position: fixed;
+  right: 22px;
+  text-decoration: none;
+  z-index: 999;
+}
+
+.floating-whatsapp:hover {
+  color: #fff;
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+.floating-whatsapp i {
+  font-size: 18px;
+}
+
+@media (max-width: 991px) {
+  .Eletrocom-header-top .top-address p {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .eletro-hero,
+  .eletro-hero .container {
+    min-height: 520px;
+  }
+
+  .eletro-hero {
+    background:
+      linear-gradient(90deg, rgba(16, 35, 63, 0.94), rgba(16, 35, 63, 0.78)),
+      url("assets/images/Eletric_013.jpg") center / cover no-repeat;
+  }
+
+  .eletro-hero h1 {
+    font-size: 40px;
+  }
+
+  .services-grid,
+  .portfolio-grid,
+  .testimonials-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .why-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 767px) {
+  .home-section,
+  .Eletrocom_about_area,
+  .Eletrocom_team2_area,
+  .Eletrocom_project_area,
+  .contact-section {
+    padding: 54px 0;
+  }
+
+  .eletro-hero .container {
+    align-items: flex-end;
+  }
+
+  .eletro-hero__content {
+    padding: 58px 0 42px;
+  }
+
+  .eletro-hero h1 {
+    font-size: 29px;
+  }
+
+  .eletro-hero p {
+    font-size: 16px;
+  }
+
+  .eletro-actions,
+  .eletro-btn {
+    width: 100%;
+  }
+
+  .eletro-hero__stats {
+    grid-template-columns: 1fr;
+  }
+
+  .section-heading,
+  .section-heading--left {
+    text-align: left;
+  }
+
+  .section-heading h2 {
+    font-size: 26px;
+  }
+
+  .services-grid,
+  .portfolio-grid,
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .service-card {
+    min-height: 0;
+    padding: 24px;
+  }
+
+  .why-item {
+    font-size: 15px;
+  }
+
+  .witr_section_title_inner h3 {
+    font-size: 27px;
+  }
+
+  .contact-panel,
+  .contact-form-panel {
+    padding: 22px;
+  }
+
+  .floating-whatsapp {
+    border-radius: 50%;
+    bottom: 16px;
+    font-size: 0;
+    height: 58px;
+    justify-content: center;
+    min-height: 58px;
+    padding: 0;
+    right: 16px;
+    width: 58px;
+  }
+
+  .floating-whatsapp i {
+    font-size: 24px;
+  }
+}
