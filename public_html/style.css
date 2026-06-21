@@ -450,7 +450,7 @@ img {
   margin: 0;
 }
 
-.why-section {
+.home-section.why-section {
   background:
     linear-gradient(90deg, rgba(16, 35, 63, 0.96), rgba(16, 35, 63, 0.88)),
     url("assets/images/electric_01.jpg") center / cover no-repeat;
