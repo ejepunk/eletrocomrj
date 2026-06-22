@@ -128,7 +128,7 @@ img {
 .eletro-hero {
   background:
     linear-gradient(90deg, rgba(16, 35, 63, 0.92), rgba(16, 35, 63, 0.68), rgba(16, 35, 63, 0.2)),
-    url("assets/images/Eletric_013.jpg") center right / cover no-repeat;
+    url("assets/images/eletrocom-servico-painel-02.jpeg") center right / cover no-repeat;
   color: #fff;
   min-height: 590px;
   overflow: hidden;
@@ -453,7 +453,7 @@ img {
 .home-section.why-section {
   background:
     linear-gradient(90deg, rgba(16, 35, 63, 0.96), rgba(16, 35, 63, 0.88)),
-    url("assets/images/electric_01.jpg") center / cover no-repeat;
+    url("assets/images/eletrocom-servico-painel-01.jpeg") center / cover no-repeat;
 }
 
 .why-grid {
@@ -500,7 +500,9 @@ img {
 .portfolio-grid {
   display: grid;
   gap: 24px;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 0 auto;
+  max-width: 920px;
 }
 
 .portfolio-card {
@@ -801,7 +803,7 @@ p.form-messege.error {
   .eletro-hero {
     background:
       linear-gradient(90deg, rgba(16, 35, 63, 0.94), rgba(16, 35, 63, 0.78)),
-      url("assets/images/Eletric_013.jpg") center / cover no-repeat;
+      url("assets/images/eletrocom-servico-painel-02.jpeg") center / cover no-repeat;
   }
 
   .eletro-hero h1 {
