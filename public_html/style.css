@@ -789,6 +789,86 @@ p.form-messege.error {
   font-size: 18px;
 }
 
+/* Hover contrast fixes for secondary pages */
+.em-team:hover .em-team-content-waraper,
+.em-team:focus-within .em-team-content-waraper {
+  background: #0b57c9;
+  color: #fff;
+}
+
+.em-team:hover .em-content-title h5,
+.em-team:hover .em-content-title h5 a,
+.em-team:focus-within .em-content-title h5,
+.em-team:focus-within .em-content-title h5 a {
+  color: #fff !important;
+}
+
+.em-team:hover .em-content-subtitle,
+.em-team:hover .em-content-subtitle p,
+.em-team:focus-within .em-content-subtitle,
+.em-team:focus-within .em-content-subtitle p {
+  color: rgba(255, 255, 255, 0.94) !important;
+}
+
+.em-team:hover .em-team-content-socials a,
+.em-team:focus-within .em-team-content-socials a {
+  background: #fff;
+  color: #0b57c9;
+}
+
+.witr_pslide.ps1 .witr_content_pslide_text {
+  background: rgba(16, 35, 63, 0.94);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 8px;
+  box-shadow: 0 18px 38px rgba(16, 35, 63, 0.28);
+}
+
+.witr_pslide.ps1 .witr_content_pslide_text h3,
+.witr_pslide.ps1 .witr_content_pslide_text h3 a,
+.witr_pslide.ps1 .witr_content_pslide_text a {
+  color: #fff !important;
+}
+
+.witr_pslide.ps1 .witr_content_pslide_text p {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.witr_pslide.ps1 .witr_content_pslide_text a:hover,
+.witr_pslide.ps1 .witr_content_pslide_text h3 a:hover {
+  color: #ffd8ad !important;
+}
+
+.Eletrocom_menu ul .sub-menu li:hover > a,
+.Eletrocom_menu ul .sub-menu li:focus-within > a,
+.mean-container .mean-nav ul li a:hover,
+.mean-container .mean-nav ul li a:focus {
+  background: var(--brand-navy);
+  color: #fff !important;
+}
+
+.service-item:hover i,
+.service-item:focus-within i {
+  background: var(--brand-navy);
+  color: #fff;
+}
+
+.witr_feature2:hover,
+.witr_feature2:focus-within {
+  background: var(--brand-navy);
+  color: #fff;
+}
+
+.witr_feature2:hover h3,
+.witr_feature2:hover h3 a,
+.witr_feature2:hover p,
+.witr_feature2:hover .witr_feature_btn2 a,
+.witr_feature2:focus-within h3,
+.witr_feature2:focus-within h3 a,
+.witr_feature2:focus-within p,
+.witr_feature2:focus-within .witr_feature_btn2 a {
+  color: #fff !important;
+}
+
 @media (max-width: 991px) {
   .Eletrocom-header-top .top-address p {
     justify-content: center;
